@@ -1,12 +1,5 @@
 version: "2"
 
-# Build the specified versions only
-versions:
-  only:
-    - "1.0.x"
-    - "main"
-    - "stable"
-
 build:
   os: "ubuntu-22.04"
   tools:
